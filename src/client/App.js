@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 // Our single Styled Component definition
-const AppContaienr = styled.div`
+const AppContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +13,6 @@ const AppContaienr = styled.div`
   background: linear-gradient(20deg, rgb(219, 112, 147), #daa357);
 `;
 
-const App = () => <AppContaienr>💅</AppContaienr>;
+const App = () => <AppContainer>💅</AppContainer>;
 
 export default App;
